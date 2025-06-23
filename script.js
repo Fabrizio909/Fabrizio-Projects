@@ -46,7 +46,7 @@ if (name === "beatrice bertazza") {
 } else if (name === "victoria zappini") {
    message = "Menapace ti farà uno dei suoi soliti interrogatori. Ma alla fine andrà tutto bene. Forza Vic";
 } else if (name === "fabrizio andreis") {
-   message = "Fabrizio ha creato questo programma, non so dirti con quale voto uscirà ma mi ha detto che non gliene frega un cazzo del voto.";
+   message = "Questo è un test. Fabrizio sta sviluppando l'app per renderla più fica. Se fabrizio leggi sto messaggio vuol dire che devi controllare il codice. spiace. Fabrizio ha creato questo programma, non so dirti con quale voto uscirà ma mi ha detto che non gliene frega un cazzo del voto.";
 } else if (name === "marco latino") {
    message = "Latino? L'esame di maturità l'ha fatto tanti anni fa. Gli era andato di merda, ma questo è un altro discorso.";  
 } 
