@@ -71,7 +71,7 @@ picture.style.display = "none";
 
 if (name === "zanetti palestrato") {
    message = "Hai sbloccato un easter egg. Rarità easter egg: epico"; 
-   picture.src = "image/zanetti.jpg";
+   picture.src = "image/zanetti.png";
    picture.style.display = "block";
 } else {
 document.getElementById("picture").src = "";
@@ -107,7 +107,43 @@ picture.style.display = "none";
 
 if (name === "zattoni erutta") {
    message = "Hai sbloccato un easter egg. Rarità easter egg: boh facciamo epica"; 
-   picture.src = "image/zattoni.jpg";
+   picture.src = "image/zattoni.webp";
+   picture.style.display = "block";
+} else {
+document.getElementById("picture").src = "";
+picture.style.display = "none";
+}
+
+if (name === "sampieri sampdoria") {
+   message = "Hai sbloccato l'easter egg più bello di tutti. Rarità easter egg: Leggendaria"; 
+   picture.src = "image/sampieri.jpg";
+   picture.style.display = "block";
+} else {
+document.getElementById("picture").src = "";
+picture.style.display = "none";
+}
+
+if (name === "federico mafioso") {
+   message = "Hai sbloccato un easter egg di cultura. Rarità easter egg: Epica"; 
+   picture.src = "image/mafioso.jpg";
+   picture.style.display = "block";
+} else {
+document.getElementById("picture").src = "";
+picture.style.display = "none";
+}
+
+if (name === "michele retrosi") {
+   message = "Hai sbloccato un easter egg sgravato. Rarità easter egg: Da denuncia. Ti prego non farlo scoprire a Retrosi o sono morto."; 
+   picture.src = "image/retrosi.jpg";
+   picture.style.display = "block";
+} else {
+document.getElementById("picture").src = "";
+picture.style.display = "none";
+}
+
+if (name === "vitelli sborelli") {
+   message = "Hai sbloccato un easter egg. Rarità easter egg: Epico. Forza African Skuldroppaut. Vitelli portaci al mondiale per club."; 
+   picture.src = "image/vitelli.jpg";
    picture.style.display = "block";
 } else {
 document.getElementById("picture").src = "";
