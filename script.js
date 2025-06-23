@@ -4,7 +4,8 @@ let output = document.getElementById('output');
 let message = "";
 const firstmark = parseFloat(document.getElementById('firstmark').value) || 0;
 const secondmark = parseFloat(document.getElementById('secondmark').value) || 0;
-const cretitmark = parseFloat(document.getElementById('creditmark').value) || 0;
+const creditmark = parseFloat(document.getElementById('creditmark').value) || 0;
+const esito = document.getElementById('esito');
 let media = ((creditmark/2)+firstmark+secondmark)/3;
 let stima = creditmark + firstmark + secondmark + media;
 
