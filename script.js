@@ -17,8 +17,7 @@ if (!name.includes(" ")) {
   output.textContent = "Ti sei dimenticato di mettere nome e cognome";
   return;
 }
-output.textContent = message;
-esito.textContent = `Scherzi a parte, ecco la stima del voto finale calcolata matematicamente in base ai voti e crediti inseriti: ${stima.toFixed(2)}`;
+
 
 if (name === "beatrice bertazza") {
    message = "Uscirai con un buon 90/100, Luana è rimasta impressa dal tuo tema e deciderà di premiarti. Daje";
@@ -144,7 +143,10 @@ if (name === "vitelli sborelli") {
 if (!imageSet) {
 picture.src = "";
 picture.style.display = "none";
+output.textContent = message;
+esito.textContent = `Scherzi a parte, ecco la stima del voto finale calcolata matematicamente in base ai voti e crediti inseriti: ${stima.toFixed(2)}`;
 }
+
 
 }
 
