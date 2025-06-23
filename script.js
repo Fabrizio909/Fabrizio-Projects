@@ -8,6 +8,10 @@ const creditmark = parseFloat(document.getElementById('creditmark').value) || 0;
 const esito = document.getElementById('esito');
 let media = ((creditmark/2)+firstmark+secondmark)/3;
 let stima = creditmark + firstmark + secondmark + media;
+let picture = document.getElementById('picture');
+
+picture.style.display = "none";
+picture.src = "";
 
 if (!name.includes(" ")) {
   output.textContent = "Ti sei dimenticato di mettere nome e cognome";
@@ -45,6 +49,10 @@ if (name === "beatrice bertazza") {
    message = "Fabrizio ha creato questo programma, non so dirti con quale voto uscirà ma mi ha detto che non gliene frega un cazzo del voto.";
 } else if (name === "marco latino") {
    message = "Latino? L'esame di maturità l'ha fatto tanti anni fa. Gli era andato di merda, ma questo è un altro discorso.";  
+} else if (name === "federico") {
+   message = "Smash, hai sbloccato un easter egg. Rarità easter egg: raro"; 
+   picture.src = "img/federico.jpg";
+   picture.style.display = "block";
 }
   
 output.textContent = message;
