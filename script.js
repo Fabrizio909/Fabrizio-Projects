@@ -47,7 +47,7 @@ if (name === "beatrice bertazza") {
 }
   
 output.textContent = message;
-esito.textContent = `ESITO FINALE: ${stima.toFixed(2)}`;
+esito.textContent = `Scherzi a parte, ecco la stima del voto finale calcolata matematicamente in base ai voti e crediti inseriti: ${stima.toFixed(2)}`;
 
 }
 
