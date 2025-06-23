@@ -143,10 +143,10 @@ if (name === "vitelli sborelli") {
 if (!imageSet) {
 picture.src = "";
 picture.style.display = "none";
-output.textContent = message;
 esito.textContent = `Scherzi a parte, ecco la stima del voto finale calcolata matematicamente in base ai voti e crediti inseriti: ${stima.toFixed(2)}`;
 }
 
+output.textContent = message;
 
 }
 
