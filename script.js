@@ -69,6 +69,6 @@ function Reset() {
   document.getElementById('firstmark').value = "";
   document.getElementById('secondmark').value = "";
   document.getElementById('output').textContent = "PREDICT: ";
-  document.getElemendById('esito').textContent = "";
+  document.getElementById('esito').textContent = "";
   document.getElementById('picture').style.display = "none";
 }
