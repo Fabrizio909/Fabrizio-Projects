@@ -2,9 +2,9 @@ function Result()  {
 let name = document.getElementById('name').value.trim().toLowerCase();
 let output = document.getElementById('output');
 let message = "";
-const firstmark = parseInt(document.getElementById('firstmark').value) || 0;
-const secondmark = parseInt(document.getElementById('secondmark').value) || 0;
-const cretitmark = parseInt(document.getElementById('creditmark').value) || 0;
+const firstmark = parseFloat(document.getElementById('firstmark').value) || 0;
+const secondmark = parseFloat(document.getElementById('secondmark').value) || 0;
+const cretitmark = parseFloat(document.getElementById('creditmark').value) || 0;
 let media = ((creditmark/2)+firstmark+secondmark)/3;
 let stima = creditmark + firstmark + secondmark + media;
 
