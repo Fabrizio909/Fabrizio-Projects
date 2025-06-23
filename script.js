@@ -70,5 +70,5 @@ function Reset() {
   document.getElementById('secondmark').value = "";
   document.getElementById('output').textContent = "PREDICT: ";
   document.getElemendById('esito').textContent = "";
-  document.getElementById('picture').src = "";
+  document.getElementById('picture').style.display = "none";
 }
