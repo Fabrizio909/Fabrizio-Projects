@@ -47,7 +47,7 @@ if (name === "beatrice bertazza") {
 }
   
 output.textContent = message;
-esito.textContent = stima;
+esito.textContent = `ESITO FINALE: ${stima.toFixed(2)}`;
 
 }
 
