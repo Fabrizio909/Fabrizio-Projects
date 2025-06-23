@@ -53,7 +53,7 @@ if (name === "beatrice bertazza") {
 
 if (name === "federico smash") {
    message = "Smash, hai sbloccato un easter egg. Rarità easter egg: raro"; 
-   document.getElementById("picture").src = "image/federico.jpg";
+   picture.src = "image/federico.jpg";
    picture.style.display = "block";
 } else {
 document.getElementById("picture").src = "";
@@ -72,4 +72,5 @@ function Reset() {
   document.getElementById('output').textContent = "PREDICT: ";
   document.getElementById('esito').textContent = "";
   document.getElementById('picture').style.display = "none";
+  document.getElementById('picture').src = "";
 }
