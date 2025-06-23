@@ -51,7 +51,7 @@ if (name === "beatrice bertazza") {
    message = "Latino? L'esame di maturità l'ha fatto tanti anni fa. Gli era andato di merda, ma questo è un altro discorso.";  
 } else if (name === "federico smash") {
    message = "Smash, hai sbloccato un easter egg. Rarità easter egg: raro"; 
-   picture.src = "img/federico.jpg";
+   document.getElementById("picture").src = "img/federico.jpg";
    picture.style.display = "block";
 }
   
