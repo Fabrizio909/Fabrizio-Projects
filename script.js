@@ -2,6 +2,9 @@ function Result()  {
 let name = document.getElementById('name').value.trim().toLowerCase();
 let output = document.getElementById('output');
 let message = "";
+const firstmark = parseInt(document.getElementById('firstmark').value);
+const secondmark = parseInt(document.getElementById('secondmark').value);
+const 
 
 if (!name.includes(" ")) {
   output.textContent = "Ti sei dimenticato di mettere nome e cognome";
