@@ -4,7 +4,7 @@ let output = document.getElementById('output');
 let message = "";
 const firstmark = parseInt(document.getElementById('firstmark').value);
 const secondmark = parseInt(document.getElementById('secondmark').value);
-const 
+const cretitmark = parseInt(document.getElementById('creditmark').value);
 
 if (!name.includes(" ")) {
   output.textContent = "Ti sei dimenticato di mettere nome e cognome";
