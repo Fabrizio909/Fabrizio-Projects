@@ -57,9 +57,6 @@ if (name === "federico smash") {
    picture.style.display = "block";
    imageSet = true;
    esito.textContent = "";
-} else {
-document.getElementById("picture").src = "";
-picture.style.display = "none";
 }
 
 if (name === "latino gangster") {
@@ -68,10 +65,7 @@ if (name === "latino gangster") {
    picture.style.display = "block";
    imageSet = true;
    esito.textContent = "";
-} else {
-document.getElementById("picture").src = "";
-picture.style.display = "none";
-}
+} 
 
 if (name === "zanetti palestrato") {
    message = "Hai sbloccato un easter egg. Rarità easter egg: epico"; 
@@ -79,9 +73,6 @@ if (name === "zanetti palestrato") {
    picture.style.display = "block";
    imageSet = true;
    esito.textContent = "";
-} else {
-document.getElementById("picture").src = "";
-picture.style.display = "none";
 }
 
 if (name === "seppi palestrato") {
@@ -90,9 +81,6 @@ if (name === "seppi palestrato") {
    picture.style.display = "block";
      imageSet = true;
    esito.textContent = "";
-} else {
-document.getElementById("picture").src = "";
-picture.style.display = "none";
 }
 
 if (name === "portopalo carletto") {
@@ -101,9 +89,6 @@ if (name === "portopalo carletto") {
    picture.style.display = "block";
     imageSet = true;
    esito.textContent = "";
-} else {
-document.getElementById("picture").src = "";
-picture.style.display = "none";
 }
 
 if (name === "federico interista") {
@@ -112,10 +97,7 @@ if (name === "federico interista") {
    picture.style.display = "block";
     imageSet = true;
    esito.textContent = "";
-} else {
-document.getElementById("picture").src = "";
-picture.style.display = "none";
-}
+} 
 
 if (name === "zattoni erutta") {
    message = "Hai sbloccato un easter egg. Rarità easter egg: boh facciamo epica"; 
@@ -123,9 +105,6 @@ if (name === "zattoni erutta") {
    picture.style.display = "block";
    imageSet = true;
    esito.textContent = "";
-} else {
-document.getElementById("picture").src = "";
-picture.style.display = "none";
 }
 
 if (name === "sampieri sampdoria") {
@@ -134,9 +113,6 @@ if (name === "sampieri sampdoria") {
    picture.style.display = "block";
    imageSet = true;
    esito.textContent = "";
-} else {
-document.getElementById("picture").src = "";
-picture.style.display = "none";
 }
 
 if (name === "federico mafioso") {
@@ -145,9 +121,6 @@ if (name === "federico mafioso") {
    picture.style.display = "block";
    imageSet = true;
    esito.textContent = "";
-} else {
-document.getElementById("picture").src = "";
-picture.style.display = "none";
 }
 
 if (name === "michele retrosi") {
@@ -156,9 +129,6 @@ if (name === "michele retrosi") {
    picture.style.display = "block";
    imageSet = true;
    esito.textContent = "";
-} else {
-document.getElementById("picture").src = "";
-picture.style.display = "none";
 }
 
 if (name === "vitelli sborelli") {
@@ -167,9 +137,6 @@ if (name === "vitelli sborelli") {
    picture.style.display = "block";
    imageSet = true;
    esito.textContent = "";
-} else {
-document.getElementById("picture").src = "";
-picture.style.display = "none";
 }
 
 if (!imageSet) {
