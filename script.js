@@ -2,9 +2,11 @@ function Result()  {
 let name = document.getElementById('name').value.trim().toLowerCase();
 let output = document.getElementById('output');
 let message = "";
-const firstmark = parseInt(document.getElementById('firstmark').value);
-const secondmark = parseInt(document.getElementById('secondmark').value);
-const cretitmark = parseInt(document.getElementById('creditmark').value);
+const firstmark = parseInt(document.getElementById('firstmark').value) || 0;
+const secondmark = parseInt(document.getElementById('secondmark').value) || 0;
+const cretitmark = parseInt(document.getElementById('creditmark').value) || 0;
+let media = ((creditmark/2)+firstmark+secondmark)/3;
+let stima = creditmark + firstmark + secondmark + media;
 
 if (!name.includes(" ")) {
   output.textContent = "Ti sei dimenticato di mettere nome e cognome";
@@ -44,6 +46,7 @@ if (name === "beatrice bertazza") {
 }
   
 output.textContent = message;
+esito.textContent = stima;
 
 }
 
