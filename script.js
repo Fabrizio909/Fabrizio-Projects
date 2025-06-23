@@ -59,6 +59,15 @@ if (name === "federico smash") {
 document.getElementById("picture").src = "";
 picture.style.display = "none";
 }
+
+if (name === "federico smash") {
+   message = "Smash, hai sbloccato un easter egg. Rarità easter egg: raro"; 
+   picture.src = "image/federico.jpg";
+   picture.style.display = "block";
+} else {
+document.getElementById("picture").src = "";
+picture.style.display = "none";
+}
   
 output.textContent = message;
 esito.textContent = `Scherzi a parte, ecco la stima del voto finale calcolata matematicamente in base ai voti e crediti inseriti: ${stima.toFixed(2)}`;
