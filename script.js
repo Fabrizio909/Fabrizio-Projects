@@ -18,6 +18,7 @@ if (name === "beatrice bertazza") {
    message = "Uscirai con un buon 90/100, Luana è rimasta impressa dal tuo tema e deciderà di premiarti. Daje";
 } else if (name === "ingrid busetti") {
    message = "Luana sarà sconcertata dal tuo voto di diritto. Ma niente paura, Portolan e Casagrande saranno lì a sostenerti e decideranno di premiare il tuo impegno. Forza Ingrid!";
+   stima = stima - 30;
 } else if (name === "luca dagostin") {
    message = "I prof rimarranno stupefatti dalla tua abilità di utilizzare l'arte del Freestyle. Uscirai con un ottimo voto.";
 } else if (name === "marco depeder") {
