@@ -60,9 +60,54 @@ document.getElementById("picture").src = "";
 picture.style.display = "none";
 }
 
-if (name === "federico smash") {
-   message = "Smash, hai sbloccato un easter egg. Rarità easter egg: raro"; 
-   picture.src = "image/federico.jpg";
+if (name === "latino gangster") {
+   message = "Hai sbloccato un easter egg. Rarità easter egg: leggendario cosa nostra"; 
+   picture.src = "image/latino.jpg";
+   picture.style.display = "block";
+} else {
+document.getElementById("picture").src = "";
+picture.style.display = "none";
+}
+
+if (name === "zanetti palestrato") {
+   message = "Hai sbloccato un easter egg. Rarità easter egg: epico"; 
+   picture.src = "image/zanetti.jpg";
+   picture.style.display = "block";
+} else {
+document.getElementById("picture").src = "";
+picture.style.display = "none";
+}
+
+if (name === "seppi palestrato") {
+   message = "Hai sbloccato un easter egg. Rarità easter egg: epico"; 
+   picture.src = "image/seppi.jpg";
+   picture.style.display = "block";
+} else {
+document.getElementById("picture").src = "";
+picture.style.display = "none";
+}
+
+if (name === "portopalo carletto") {
+   message = "Hai sbloccato un easter egg sgravato. Rarità easter egg: denunciabile"; 
+   picture.src = "image/portolan.jpg";
+   picture.style.display = "block";
+} else {
+document.getElementById("picture").src = "";
+picture.style.display = "none";
+}
+
+if (name === "federico interista") {
+   message = "Hai sbloccato un easter egg. Rarità easter egg: Raro. Federico è sceso in campo ma si è beccato 5 pere :("; 
+   picture.src = "image/interista.jpg";
+   picture.style.display = "block";
+} else {
+document.getElementById("picture").src = "";
+picture.style.display = "none";
+}
+
+if (name === "zattoni erutta") {
+   message = "Hai sbloccato un easter egg. Rarità easter egg: boh facciamo epica"; 
+   picture.src = "image/zattoni.jpg";
    picture.style.display = "block";
 } else {
 document.getElementById("picture").src = "";
