@@ -57,6 +57,7 @@ if (name === "federico smash") {
    picture.style.display = "block";
 } else {
 document.getElementById("picture").src = "";
+picture.style.display = "none";
 }
   
 output.textContent = message;
