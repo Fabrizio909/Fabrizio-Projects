@@ -49,10 +49,14 @@ if (name === "beatrice bertazza") {
    message = "Fabrizio ha creato questo programma, non so dirti con quale voto uscirà ma mi ha detto che non gliene frega un cazzo del voto.";
 } else if (name === "marco latino") {
    message = "Latino? L'esame di maturità l'ha fatto tanti anni fa. Gli era andato di merda, ma questo è un altro discorso.";  
-} else if (name === "federico smash") {
+} 
+
+if (name === "federico smash") {
    message = "Smash, hai sbloccato un easter egg. Rarità easter egg: raro"; 
    document.getElementById("picture").src = "image/federico.jpg";
    picture.style.display = "block";
+} else {
+document.getElementById("picture").src = "";
 }
   
 output.textContent = message;
